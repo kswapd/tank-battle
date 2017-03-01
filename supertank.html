@@ -1,0 +1,46 @@
+
+
+
+<html>
+<head>
+<meta content='A JavaScript SuperTank game coded by KongXiangwen' name='description'/>
+<style>
+#battle {
+	background-color : black;
+	position : relative;
+	overflow : hidden;
+	left : 25px;
+	top : 0px;
+	width : 400px;
+	height : 400px;
+}
+#info {
+	background-color : white;
+	position : relative;
+	overflow : hidden;
+	left : 425px;
+	top : -400px;
+	width : 200px;
+	height : 150px;
+	font-weight:bold;
+}
+</style>
+<script type="text/javascript" src="tankGame.js"></script>
+</head>
+<body>
+
+<div id=“tips">
+<p>移动：上下左右键 开火：F</p>
+</div>
+<div id="battle">
+</div>
+<div id="info">
+</div>
+<div id="hiding_div" style="display:none">
+<img src="tank0.gif" onload="waitLoadImg(0)">
+<img src="tank1.gif" onload="waitLoadImg(1)">
+<img src="tank2.gif" onload="waitLoadImg(2)">
+<img src="tank3.gif" onload="waitLoadImg(3)">
+</div>
+</body>
+</html>
